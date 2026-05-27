@@ -1,9 +1,9 @@
 <!-- workshop-header -->
 <img width="1347" height="127" alt="Coding Thailand 2026 header" src="https://github.com/user-attachments/assets/ba5cf267-f460-4fb0-b69b-c461ae061a3b" />
 
-# 🚀 GitHub Setup Guide สำหรับผู้จัด Workshop
+# 🚀 GitHub Setup Guide
 
-> คู่มือนี้สำหรับผู้จัด workshop และอ้างอิง flow ปัจจุบันของ repo นี้: เก็บ team template ไว้ในโฟลเดอร์ `templates/team-repo-template/`
+> คู่มือนี้ใช้อ้างอิง flow ปัจจุบันของ repo นี้: เก็บ team template ไว้ในโฟลเดอร์ `templates/team-repo-template/`
 
 ---
 
@@ -160,13 +160,14 @@ gh repo create demo-team --public --clone
 ## 📋 Workshop Day Flow (GitHub-focused)
 
 ### 09:30-09:45 — Setup ทีม
-```
-ครูพูด: "ทุกทีมไปที่ URL workshop repo"
-ครูพูด: "เปิดโฟลเดอร์ templates/team-repo-template"
-ครูพูด: "สร้าง repo ใหม่ชื่อ edge-ai-team-XX, public"
-ครูพูด: "คัดลอกไฟล์ template ไปใส่ repo ทีม"
-ครูพูด: "Clone ลง laptop ตามคำสั่งใน docs/04-git-basics.md"
-```
+
+ลำดับที่ควรพาทีมทำ:
+
+- ไปที่ URL workshop repo
+- เปิดโฟลเดอร์ `templates/team-repo-template`
+- สร้าง repo ใหม่ชื่อ `edge-ai-team-XX` แบบ public
+- คัดลอกไฟล์ template ไปใส่ repo ทีม
+- Clone ลง laptop ตามคำสั่งใน `docs/04-git-basics.md`
 
 ### ตลอดวัน — Cadence ของ Commit
 

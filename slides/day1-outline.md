@@ -3,7 +3,7 @@
 
 # 🎨 Day 1 Slide Outline
 
-> **25 สไลด์ สำหรับวิทยากร** — ใช้กับช่วง opening (09:00-09:30) + transitions
+> **25 สไลด์สำหรับช่วง opening** — ใช้กับช่วง opening (09:00-09:30) + transitions
 >
 > ไฟล์นี้คือ structure สำหรับนำไปสร้าง slide จริงใน Canva/PowerPoint/Google Slides
 
