@@ -13,10 +13,11 @@
 ## ทำตามลำดับนี้
 
 1. [01-schedule.md](01-schedule.md) — วันนี้แต่ละช่วงทำอะไร
-2. [02-setup-board.md](02-setup-board.md) — ตั้งบอร์ดให้เป็นของทีม (เช้า)
-3. [03-morning-inputs.md](03-morning-inputs.md) — ต่อ input 3 แบบ (เช้า)
-4. [04-edge-impulse.md](04-edge-impulse.md) — เทรน + deploy + ทดสอบ (บ่าย)
-5. [05-submit.md](05-submit.md) — ส่งงานผ่าน fork
+2. [00-install-app-lab.md](00-install-app-lab.md) — ลง Arduino App Lab (ถ้ายังไม่ได้ลง)
+3. [02-setup-board.md](02-setup-board.md) — ตั้งบอร์ดให้เป็นของทีม (เช้า)
+4. [03-morning-inputs.md](03-morning-inputs.md) — ต่อ input 3 แบบ (เช้า)
+5. [04-edge-impulse.md](04-edge-impulse.md) — เทรน + deploy + ทดสอบ (บ่าย)
+6. [05-submit.md](05-submit.md) — ส่งงานผ่าน fork
 
 ติดตรงไหนเปิด [troubleshooting.md](troubleshooting.md) ก่อน
 

@@ -15,11 +15,15 @@
    - **Wi-Fi** (เลื่อนลงล่างเจอ SSID / PASSWORD) → ตั้งให้ตรงกับ Wi-Fi ที่ laptop ใช้
 4. เปิด **Remote access (SSH)** ไว้
 
+<img src="assets/app-lab-settings.png" alt="หน้า Settings: แก้ชื่อบอร์ด (ดินสอ), OS password Change password, Remote access (SSH)" width="460" />
+
 > ✅ **ผ่านเมื่อ:** App Lab เห็นบอร์ดชื่อ `team-XX-q` + ต่อ Wi-Fi ได้ + ทีมรู้รหัสตัวเอง
 
 ## เกร็ด
 
 - บอร์ดกับ laptop ต้องอยู่ **Wi-Fi ตัวเดียวกัน** ไม่งั้น App Lab หาบอร์ดไม่เจอ
-- เปิด shell บนบอร์ดได้จากปุ่ม **`>_`** มุมล่างของ App Lab (ไว้ใช้ตอนบ่าย)
+- เปิด shell บนบอร์ดได้จากปุ่ม **`>_`** มุมล่างซ้ายของ App Lab (ไว้ใช้ตอนบ่าย)
+
+<img src="assets/app-lab-shell-button.png" alt="ปุ่มเปิด bash shell ที่มุมล่างซ้ายของ App Lab" width="420" />
 
 บอร์ดไม่ขึ้น / ไม่ boot? เปิด [troubleshooting.md](troubleshooting.md) ข้อ 1

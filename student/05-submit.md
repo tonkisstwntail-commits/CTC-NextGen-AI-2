@@ -7,20 +7,34 @@
 
 ## 1) Fork repo (ครั้งเดียวต่อทีม)
 
-1. เข้า repo หลัก กด **Fork** (มุมขวาบน) → ตั้งชื่อ → **Create fork**
-2. ถ้ากด Fork แล้ว error = เคย fork แล้ว → กดโลโก้ GitHub ไป dashboard หา repo เดิมที่สร้างไว้
+1. เข้า repo หลัก กด **Fork** (มุมขวาบน)
+
+<img src="assets/gh-fork-button.jpg" alt="ปุ่ม Fork มุมขวาบนของ repo หลัก" width="560" />
+
+2. ตั้งชื่อ repo → **Create fork**
+
+<img src="assets/gh-create-fork.jpg" alt="หน้า Create a new fork: ตั้งชื่อแล้วกด Create fork" width="560" />
+
+3. ถ้ากด Fork แล้ว error = เคย fork แล้ว → กดโลโก้ GitHub ไป dashboard หา repo เดิมที่สร้างไว้
 
 > ⚠️ ก่อนแก้ทุกครั้ง เช็กว่าอยู่ใน repo **ของทีมเอง** ไม่ใช่ repo หลัก ไม่งั้น commit ผิดที่
 
 ## 2) แก้ + commit
 
 1. เปิดไฟล์ที่จะกรอก (เช่น `team-template/afternoon/model.md`) → กด **ไอคอนดินสอ**
-2. กรอกเนื้อหา → **Commit changes**
+
+<img src="assets/gh-edit-pencil.jpg" alt="กดไอคอนดินสอเพื่อแก้ไฟล์บน GitHub" width="560" />
+
+2. กรอกเนื้อหา → กด **Commit changes**
 3. ใส่ข้อความสั้นๆ + ชื่อทีม/สมาชิก → **Propose changes**
+
+<img src="assets/gh-commit-message.jpg" alt="กล่อง Commit message แล้วกด Propose changes" width="560" />
 
 ## 3) เช็กว่าส่งแล้ว
 
 กดชื่อ repo ทีม → แท็บ **Commits** → เห็น commit ของทีมโผล่ = อัปเดตแล้ว
+
+<img src="assets/gh-verify-commit.jpg" alt="แท็บ Commits เห็น commit ของทีมที่เพิ่งส่ง" width="560" />
 
 ## ต้องส่งให้ครบ
 

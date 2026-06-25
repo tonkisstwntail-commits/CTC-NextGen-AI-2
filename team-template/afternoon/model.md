@@ -9,6 +9,8 @@
 
 ## V1
 - Accuracy (ใน Studio): ____
+- F1 score ราย class (class : F1): _______________
+- class ที่ F1 ต่ำสุด: _______________
 - รูป Confusion Matrix: ![cm-v1](../assets/cm-v1.png)
 - อ่านแล้วเห็นอะไร (class ไหนสับสนกับ class ไหน): _______________
 

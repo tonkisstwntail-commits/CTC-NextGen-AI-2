@@ -7,18 +7,29 @@
 
 - เสียบสายถูกไหม / สายเสียไหม
 - ต่อ Wi-Fi ได้ไหม (ถ้าได้ ใช้ผ่าน Wi-Fi เลยสะดวกกว่า)
-- ⭐ **มี jumper pin เสียบค้างอยู่ไหม** — pin นี้ทำให้บอร์ด boot ไม่ขึ้น ถ้ามีให้ถอดออกก่อน
+- ⭐ **มี jumper pin เสียบค้างอยู่ไหม** — pin นี้ทำให้บอร์ด boot ไม่ขึ้น ถ้ามีให้ถอดออกก่อน (ดูตำแหน่งในวงกลม)
+
+<img src="assets/board-jumper-pin.jpg" alt="ตำแหน่ง jumper pin บนบอร์ดที่ต้องถอดออก" width="360" />
 
 ## 2) ต่อกล้อง/ไมค์ไม่ขึ้น หรือบอร์ดไม่เชื่อมสักที (รอนานมาก)
 
-- ตอนใช้กล้อง/ไมค์ ให้ **บอร์ดอยู่บน Wi-Fi** + กล้อง/ไมค์เสียบ **powered USB hub**
+- ตอนใช้กล้อง/ไมค์ ให้ **บอร์ดอยู่บน Wi-Fi** + กล้อง/ไมค์เสียบ **powered USB hub** (hub ต้องเสียบสาย power ด้วย)
 - ⚠️ **อย่าต่อบอร์ดเข้าคอมโดยตรงพร้อมใช้กล้อง** มันจะหากล้องไม่เจอ
+
+<img src="assets/usb-hub-wiring.jpg" alt="วิธีต่อ powered USB hub: ช่องสาย power และช่องต่อกล้อง/ไมค์" width="420" />
+
 - หาบอร์ดไม่เจอใน App Lab? → มักเพราะบอร์ดกับคอมคนละ Wi-Fi
-  - ต่อบอร์ดเข้าคอมก่อน → App Lab → Settings → ตั้ง SSID/PASSWORD ให้ตรงคอม → กลับไปต่อ Wi-Fi + hub ใหม่
+  - ต่อบอร์ดเข้าคอมก่อน → App Lab → **Settings** → เลื่อนลงตั้ง SSID/PASSWORD ให้ตรงคอม → กลับไปต่อ Wi-Fi + hub ใหม่
+
+<img src="assets/app-lab-settings.png" alt="หน้า Settings ของ App Lab: ชื่อบอร์ด, Change password, Remote access (SSH)" width="460" />
 
 ## 3) edge-impulse-linux มีปัญหา
 
-เปิด shell (`>_`) บนบอร์ด รัน:
+เปิด shell (`>_`) บนบอร์ด (ปุ่มมุมล่างซ้ายของ App Lab):
+
+<img src="assets/app-lab-shell-button.png" alt="ปุ่มเปิด bash shell ที่มุมล่างซ้ายของ App Lab" width="460" />
+
+จากนั้นรัน:
 ```bash
 nano run.sh
 ```
